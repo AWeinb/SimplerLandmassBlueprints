@@ -1,6 +1,12 @@
 # SimplerLandmassBlueprints
 Refactored version of parts of the 4.26 Landmass Blueprint Brushes
 
+You need:
+- The Unreal Engine 4.26
+- The Landmass Plugin
+- A mouse to move the golden objects around to refresh the landscape.
+
+## Description
 My initial painpoint was that the usual auto-paint approach for
 landscapes was not allowing me to use the grass tool because no
 real paint-layer weights were available. At least this
