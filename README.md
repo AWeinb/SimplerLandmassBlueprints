@@ -1,8 +1,9 @@
-# SimplerLandmassBlueprints
-Refactored version of parts of the 4.26 Landmass Blueprint Brushes
+# LandmassEffectBrush
+Refactored version of parts of the 4.26 Landmass Blueprint Brushes.
+The latest version is for UE5.
 
 You need:
-- The Unreal Engine 4.26
+- The Unreal Engine 5.x
 - The Landmass Plugin
 
 ## Description
@@ -35,6 +36,30 @@ I dont think I will make anything useful with these brushes and
 this all was probably just to play around with the engine. But
 as it could be something useful for other I thought I would just
 put it here.
+
+## How-to
+Content\Editor\Landscape\LandmassEffectBrush contains LandmassEffectBrush.uasset
+which is a Landscape brush. The class itself does nothing to the landscape.
+It uses effect components that do some kind of change to the heightmap or
+weightmaps. The effects can be restricted to specific area using mask
+components.
+
+In order to make it work you need to:
+- Create a landscape.
+- In the landscape editor create a layer and use the blueprint menu to add the LandmassEffectBrush.
+- The brush is then an actor in the world (additionally a cache object is created).
+- Go back to the usual selection mode.
+- Select the brush actor in the outliner.
+- Take a look at the Details as the actor has some settings there.
+- To add an effect click the plus in the component outline of the actor and search "effect".
+- You should find something that extends IsLandmassBrushEffect.uasset. like NoiseEffect.
+- There should be some kind of change to the landscape, if not try a "trigger update" (the button should be in the Details).
+- To mask something add a "mask" component to the effect (or the brush).
+- The spline mask needs an additional spline component. Add that like the other components under the mask component. Then create some curve.
+- I hope it works otherwise it can be a pain to debug it as the debugger doesnt seem to work in these classes.
+
+If you get it working it can be easier to hack the classes or to create custom variants instead of using
+the predefined stuff. This way you have more possibilities.
 
 ## Screenshots
 In the picture very steep areas are supposed to be blue, areas x units 
