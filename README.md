@@ -68,5 +68,3 @@ black because they dont receive any love and some are of mixed colors
 because they get more of it. Also i painted manually at some places.
 ___
 ![Screenshot](https://user-images.githubusercontent.com/4525893/119810964-da59b600-bee6-11eb-9c85-f81c104c7149.jpg)
-___
-![grafik](https://user-images.githubusercontent.com/4525893/119811330-450af180-bee7-11eb-8c93-86ba86919974.png)
