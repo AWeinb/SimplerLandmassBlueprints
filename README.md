@@ -6,6 +6,8 @@ You need:
 - The Unreal Engine 5.x
 - The Landmass Plugin
 
+The last commit contains a demo project with a demo map. Maybe it works, maybe it doesnt. No warranties.
+
 ## Description
 My initial painpoint was that the usual auto-paint approach for
 landscapes was not allowing me to use the grass tool because no
