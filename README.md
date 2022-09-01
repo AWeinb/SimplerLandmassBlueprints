@@ -70,3 +70,7 @@ black because they dont receive any love and some are of mixed colors
 because they get more of it. Also i painted manually at some places.
 ___
 ![Screenshot](https://user-images.githubusercontent.com/4525893/119810964-da59b600-bee6-11eb-9c85-f81c104c7149.jpg)
+![Screenshot 2022-09-01 180958](https://user-images.githubusercontent.com/4525893/187965858-31e37520-31c3-4679-a166-617a3d823611.jpg)
+![Screenshot 2022-09-01 181518](https://user-images.githubusercontent.com/4525893/187965862-a16fcae6-c58e-4eec-87be-0af89eef068c.jpg)
+![Screenshot 2022-09-01 180215](https://user-images.githubusercontent.com/4525893/187965864-b54c7d4e-d3e6-4069-b531-d72f2f6bdfec.jpg)
+![Screenshot 2022-09-01 180259](https://user-images.githubusercontent.com/4525893/187965869-3e35282e-5dd5-43a8-b180-9e4547ea4bef.jpg)
